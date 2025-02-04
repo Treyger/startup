@@ -2,7 +2,8 @@
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My application is a Wizard Duel party game where players are given prompts
+to respond to and vote for their favorite answers
 
 
 > [!NOTE]
@@ -26,7 +27,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+For my application I will be making a multiplayer party game where everyone joins a game and player is given 2 prompts to respond to. Then the players will vote on which responses they like the best, and the player with the most votes will be displayed as the winner. The game is explained as a wizard duel where the prompts are seeking a certain outcome for their opponent and the players write what spell they would cast to achieve this outcome.
 
 ### Design
 
@@ -43,20 +44,20 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- The main menu will have the option to start the game or join the game that’s about to start. 
+- Each player may give themselves a name, is given prompts to respond to, and votes on the other prompts.
+- There will also be a leaderboard with the top 10 most recent highly voted answers
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Home Screen to start, multiple html pages (changes screens from answering the prompts, to voting for the best response, and a final screen to show the winner)
+- **CSS** - Styling that would look good on laptop and possibly iPhone, styling reflects party-game vibe. Clear indication for what buttons the user needs to press
+- **React** - Everyone will choose a name, be given 2 prompts to respond to, and then will vote for the best responses. Player with most votes displayed at the end
+- **Service** - Gives random prompts, accepts votes and stores points for each player, “answer for me” option with prewritten answers
+- **DB/Login** - The most recent 10 highest voted answers are displayed with their prompts
+- **WebSocket** - Game is played in realtime, each player is given a prompt, responds, and then votes at the same time as the other players
 
 ## 🚀 AWS deliverable
 
