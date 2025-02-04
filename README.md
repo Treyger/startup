@@ -1,4 +1,4 @@
-# Your startup name here
+# Wizard Duel Party Game
 
 [My Notes](notes.md)
 
