@@ -8,6 +8,22 @@
 - [Canvas](https://byu.instructure.com)
 - [MDN](https://developer.mozilla.org)
 
+## Startup
+# Git
+Git is an open source control system. Utilizes a branching style of coding that allows you to experiment with changes before changing your code. Keeps multiple versions of your code saved at once
+Github is a website that allows developers to work togther and build off each other
+git init - initializes your file into being edited by git
+git status
+echo *file content* > *file name* creates a new file
+followed by
+git add . 
+makes your computer track a new file
+
+# Markdown
+Markdown assists in the formatting of text files
+You can call images and files from the internal repository supplied by files or from the internet
+
+
 ## AWS
 
 My IP address is: 54.81.96.130
