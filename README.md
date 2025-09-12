@@ -1,8 +1,8 @@
-# Your startup name here
+# Explosive Word-nance Disposal
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This website will be a typing game where you have to type the words displayed underneath bombs to prevent them from blowing up.
 
 
 > [!NOTE]
@@ -18,45 +18,42 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The main function of website is a typing game where you have to type a random word displayed underneath a bomb to prevent it from blowing up. Your score will be kept and the game will continue to give you words until you mistype or are too slow. It will have a login feature and the high scores of other players displayed on a leaderboard. The words will be pulled from a random word list.
 
 ### Design
 
-![Design image](placeholder.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Homescreen Example](homescreen-example.png)
+This is just a very rough example of the homepage would look like
+! [Game Example](game-example.png)
+This is an example of what the gameplay would look like, displaying what you are typing, the bombs and words with their times, and your score.
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Secure login with HTTPS
+- A choice to view the leaderboard
+- Visual confirmation of what word/bomb you are currently typing to disarm
+- A timer for each bomb
+- An active score keeper displayed on screen
+- An option to publish scores
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Structure for main menu, clear interface during gameplay, pages for menu, game, and leaderboard
+- **CSS** -  Animation for bombs appearing, being disarmed or exploding
+- **React** - Interaction for words being typed (letters turning red), score going up for words being completed
+- **Service** - Login, logout, keeping score. Call to a third party website to gain a list of random words
+- **DB/Login** - Highscores of all players
+- **WebSocket** - Updating highscore table
 
 ## 🚀 AWS deliverable
 
